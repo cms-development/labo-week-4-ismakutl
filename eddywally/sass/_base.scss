@@ -1,0 +1,25 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  #block-eddywally-branding {
+    width: 50%;
+  }
+  nav#block-eddywally-main-menu {
+    width: 50%;
+    ul.menu {
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+      li {
+        padding: 8px 16px;
+      }
+    }
+  }
+}
+
+.messages.messages--status {
+  position: absolute;
+  width: calc(100% - 20px);
+  top: 5px;
+  left: 15px;
+}

@@ -1,0 +1,20 @@
+name: Eddy Wally
+description: 'Ismail Kutlu`s awesome theme! Base theme: Classy'
+type: theme
+base theme: classy
+core: 8.x
+version: 0.0.1
+
+libraries: 
+  - eddywally/global-css
+  - eddywally/fontawesome
+  - eddywally/bootstrap
+  - eddywally/global-js
+
+regions: 
+  content: 'Main content'
+  header: 'Header'
+  subheader_left: 'Subheader left'
+  subheader_right: 'Subheader right'
+  sidebar: 'Sidebar'
+  footer: 'Footer'

@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 border border-light">
+      {{ page.header }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 border border-light">
+      {% if page.content %}
+        {{ page.content }}
+      {% else %}
+        <em class="text-muted">No content</em>
+      {% endif %}
+    </div>
+    <div class="col-4 border border-light">
+      {% if page.sidebar %}
+        {{ page.sidebar }}
+      {% else %}
+        <em class="text-muted">No content</em>
+      {% endif %}
+    </div>
+  </div>
+  <div class="row">
+  
+    <div class="col-12 border border-light">
+      {% if page.footer %}
+        {{ page.footer }}
+      {% else %}
+        <em class="text-muted">No content</em>
+      {% endif %}
+    </div>
+    
+  </div>
+</div>
